@@ -51,7 +51,7 @@ int fibonacci(int n) {
     fib[i] = fib[i - 1] + fib[i - 2];
   }
 
-  int result = fib[n - 1];
+  int result = fib[n];
   free(fib);
 
   return result;
@@ -183,7 +183,7 @@ int main() {
   free(n5);
   free(n6);
 
-  // Delete function nodes
+  // Delete function nodes in the correct order
   free(add);
   free(mul);
   free(div);
