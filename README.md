@@ -26,8 +26,14 @@ gcc rec.c -o rec
 ./fib.exe
 ```
 
+- You can change the values of the integer nodes for different results
+
 - Run rec.exe (Q2)
 
 ```
 ./rec.exe
 ```
+
+- Enter the value of n to compute for the recurrence
+
+<hr>
